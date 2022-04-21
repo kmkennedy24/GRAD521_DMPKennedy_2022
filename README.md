@@ -11,3 +11,4 @@ I will be using existing datasets which have already been collected by others fr
 4.	I hope to integrate Traditional Ecological Knowledge in my project to help inform my models. This may include interviews and transcriptions. 
 
 All of these data will all be useful in developing species distribution models for juvenile steelhead salmon. Species distribution models use multiple covariates to project the presence or absence of individuals. I will mainly use these habitat data to decide the covariates and other components of the model. I have not assessed the most influential habitat characteristics in determining the likelihood of presence or absence, but will likely run a series of linear regression models to evaluate the importance of things like number/percent of pools identified, percent of down woody debris, and percent of shade. These models will likely be run in R, Python and ArcGIS. 
+ 
