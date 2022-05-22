@@ -26,10 +26,22 @@ As my project continues I will develop models to analyze the population and habi
 	
 To ensure that the changes I make to dataset format, as well as new data I develop through my various analyses, I plan to develop a file naming convention as well a visual guide for the DMP. This visual guide will display the location of files, the system of organization, as well as the contact information for those who are associated with the data who may be helpful resources. 
 
-# Data Standards and Metadata
+# Sharing, Archiving and Preservation
 
-# Storage and Security
+There are not any factors that limit the ability to share data with my project. However, there may be some datasets which do not communicate any information without access to GIS software. Besides for potential technological barriers, the information is unrestricted and will be shared publicly. Some of the data used in this project is already available upon request on the ODFW Data Clearinghouse website:
+	
+	https://nrimp.dfw.state.or.us/DataClearinghouse/default.aspx?ReturnUrl=%2fDataClearinghouse
 
-# Access and Data Sharing 
 
-# Archiving and Preservation
+Any products of my own research including GIS layers, mathematical models used for analysis, written reports, and other datasets will be publicly available in this same clearing house and the OSU data depository, ScholarsArchive@OSU:
+
+
+	https://ir.library.oregonstate.edu/
+
+
+While there are many sources of data in the ODFW Clearing House, the instructions on how to upload data are connected to a broken link. Sharing my data will happen by the end of my tenure as a graduate student in June 2023. These datasets will include .csv files, GIS map layers, and .Rmd files. These data will be as freely available as possible for reuse, redistribution and creation of derivatives with a CC0 licenses.
+
+
+The length of time the data on the Clearing House website will be archived, maintained and preserved is unclear. Access to these data are limited in the sense that requesting it is required. The data shared in the Scholars Archive at OSU will require no maintenance and will be openly accessible. The data shared in this repository are preserved indefinitely. 
+
+
