@@ -7,7 +7,6 @@ I will be using existing datasets which have already been collected by others fr
 - Surveys and describe various components of steelhead and coho salmon habitat along streams in Oregon as well as population data for each species. These data exist in multiple .csv files which I have been analyzing using R in R studio. 
 - Spatial data which can be helpful in visualizing these habitat data while also layering in remotely sensed data about larger scale habitat data. These data are many different data types and are stored in a shared drive. They can be accessed and visualized by using ArcGIS, Python or R.
 - Model outputs from a model called VELMA (Visualizing Ecosystem Land Management Assessments). These outputs include spatial layers related to hydrology and biochemistry. The outputs are ArcGIS layers and can be visualized by using ArcMap or other GIS platforms. 
-- I hope to integrate Traditional Ecological Knowledge in my project to help inform my models. This may include interviews and transcriptions. 
 
 All of these data will all be useful in developing species distribution models for juvenile steelhead salmon. Species distribution models use multiple covariates to project the presence or absence of individuals. I will mainly use these habitat data to decide the covariates and other components of the model. I have not assessed the most influential habitat characteristics in determining the likelihood of presence or absence, but will likely run a series of linear regression models to evaluate the importance of things like number/percent of pools identified, percent of down woody debris, and percent of shade. These models will likely be run in R, Python and ArcGIS. 
 	
@@ -15,8 +14,7 @@ I have access to an abundance of data; however, it is unclear how much I will ac
 
 # Roles and Responsibilities
 
-My advisor (PI) would likely hold me accountable for implementing the DMP we organize together; however, 
-I believe it would be my responsibility to implement the plan. My project is based on existing data and a dimension of my work will include acquiring, organizing, storing, and analyzing these data sets. 
+The PI will assist in implementing the DMP we organize together. My project is based on existing data and a dimension of my work will include acquiring, organizing, storing, and analyzing these data sets. 
 Therefore, I will be solely responsible for these tasks as well as developing a system of archiving both the data and my analyses. Metadata is largely not included in the datasets I have acquired and because of this I have and will continue to contact the original owners of the data to generate metadata. Datasets from Oregon Department of Fish and Wildlife (ODFW) include raw fine scale habitat data for steelhead and coho salmon as well as population data. I may request data access to more habitat and population from NOAA. 
 	
 Since I will be using data collected by other people, 
@@ -26,7 +24,17 @@ As my project continues I will develop models to analyze the population and habi
 	
 To ensure that the changes I make to dataset format, as well as new data I develop through my various analyses, I plan to develop a file naming convention as well a visual guide for the DMP. This visual guide will display the location of files, the system of organization, as well as the contact information for those who are associated with the data who may be helpful resources. 
 
-# Sharing, Archiving and Preservation
+# Data Standards and Metadata
+
+My research is focused on the relationship between habitat characteristics and populations of juvenile steelhead. I will be using tabular data from habitat and population surveys which have already been collected by other people at Oregon Department of Fish and Wildlife.  These data exist in multiple .csv files which I have been analyzing using R in R studio. These surveys are stored as tabular data and will include a readme sheet which includes the definitions of variables as well as contact information for those who collected the data. I am still not certain about which components of the data I will be using, and I intend on creating duplicates of all .csv files that are adjusted as well as describing any changes in the readme. The naming convention for each data set will include ‘dateedited (in year_month_day)_datadescription(i.e. habitatdata)’. 
+
+New datasets will likely be generated as I continue with my project. This will include analyses being applied to the tabular data described above, and being executed in R studio. Progress in R studio will be documented by using R markdown and/or R notebook. By outputting these files as HTML notebooks and saving each version, any changes can be well documented and knitted into a user-friendly interface where code chunks and text outline any analyses. There are existing packages which I may want to use which generate metadata from R markdown files. 
+
+Another dimension of my research will hopefully be developing an R package that will be a specific group of functions to run a species distribution model with my data. The documentation of developing the R package will be as described above, and will also be included in the specific help file for the package and each of the functions. The data I use will also be callable from the package itself once the package is installed. 
+
+While I am certain I will use spatial data in my project, I still lack the vocabulary and familiarity with GIS to be sure about how I will store and document changes and descriptions of my datasets. I likely will utilize the software ArcGIS and create databases where relevant data will be stored including readme.md files. I also may decide to use R studio for spatial analysis, in which case documentation of changes and data descriptions will be stored using the aforementioned methods.
+
+# Sharing and Preservation
 
 There are not any factors that limit the ability to share data with my project. However, there may be some datasets which do not communicate any information without access to GIS software. Besides for potential technological barriers, the information is unrestricted and will be shared publicly. Some of the data used in this project is already available upon request on the ODFW Data Clearinghouse website:
 	
