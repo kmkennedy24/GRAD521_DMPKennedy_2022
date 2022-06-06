@@ -1,4 +1,4 @@
-# Data description
+# 1. Data description
 
 This research is concerning steelhead salmon and the habitat they occupy in various Oregon watersheds. In this project we will be addressing questions regarding the relationship between different habitat characteristics, how changes in these habitat variables may impact steelhead populations, and how valuable some methods of data collection are compared to others in understanding these fish. 
 we will be using existing datasets which have already been collected by others from Oregon Department of Fish and Wildlife (ODFW). These data include:
@@ -13,7 +13,7 @@ All of these data will be useful in developing species distribution models for j
 	
 Currently there is about 1-2 GB of datasets, as we develop GIS projects and layers this number will increase to 3-4 GB or more.  
   
-# Roles and Responsibilities
+# 2. Roles and Responsibilities
 
 The PI will be responsible for implementing the DMP. Because this project is based on existing data, a dimension of the graduate student's work will include acquiring, organizing, storing, and analyzing these data sets. Therefore, the graduate student will be solely responsible for these tasks as well as developing a system of archiving both the data and future analyses. Metadata is largely not included in the datasets currently and because of this the graduate student will continue to contact the original owners of the data to generate and ammend any missing metadata. ODFW include raw fine scale habitat data for steelhead as well as population data. All of the from ODFW have copies with the original owners. These datasets are unrestrictive and do not contain sensitive information.
 
@@ -22,7 +22,7 @@ While this project has many partners, the graduate student has sole responsibili
 As this project continues we will develop models to analyze the population and habitat data. I hope to develop a package in R to store these methods of analysis as well as the metadata behind each step within the models. We will include all of this information as well as instructions of reproducibility within the package help files. 
 
 
-# Data Standards and Metadata
+# 3. Data Standards and Metadata
 
 This project will be using tabular data from habitat and population surveys which have already been collected by other individuals at ODFW. These data exist in multiple .csv files which will be analyzed using R in R studio. These surveys are stored as tabular data and will include a readme sheet which stores the definitions of variables as well as contact information for those who collected the data.
 
@@ -33,7 +33,7 @@ New datasets will be generated as we continue with this project. This will inclu
 Another dimension of this research will be developing an R package that will be a specific group of functions to run a species distribution model with this data. The documentation of developing the R package will be as described above, and will also be included in the specific help file for the package and each of the functions. The data we use will also be callable from the package itself once the package is installed. 
 
 We will utilize the software ArcGIS Pro and create geodatabases where relevant data will be stored as ‘projects’ including readme.md files. 
-# Storage and Security
+# 4. Storage and Security
 _Box Drive_
 
 - Literature reviewed as tabular data.
@@ -47,8 +47,8 @@ _GitHub_
 
 - Graduate student will perform analysis using their personal GitHub.
 
-# Sharing and Preservation
+# 5. Access, Sharing, and Preservation 
 
-There are no requirements for data management, release, or preservation for this project. Any products of this research including GIS layers, mathematical models used for analysis, written reports, and other datasets will be available only upon request of the PI and through ODFW. Copies of the mathematical models and other analysis will be stored in the graduate student's personal GitHub and files will remain in the Box drive for at least 3 years after the graduate student is no longer on the project. These files can be made available upon request. 
+There are no requirements for data management, release, or preservation for this project. Any products of this research including GIS layers, mathematical models used for analysis, written reports, and other datasets will be available only upon request of the PI and through ODFW. After this release, all maintenance responsibilities will fall on the PI. Copies of the mathematical models and other analysis will be stored in the graduate student's personal GitHub and files will remain in the Box drive for at least 3 years after the graduate student is no longer on the project. These files can be made available upon request. 
 
 
