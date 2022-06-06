@@ -1,55 +1,54 @@
 # Data description
 
-My research is concerning steelhead salmon and the habitat they occupy in various Oregon watersheds. 
-In my project I will be addressing questions regarding the relationship between different habitat characteristics, how changes in these habitat variables may impact steelhead populations, and how valuable some methods of data collection are compared to others in understanding these fish. 
-I will be using existing datasets which have already been collected by others from Oregon Department of Fish and Wildlife. These data include:
+This research is concerning steelhead salmon and the habitat they occupy in various Oregon watersheds. In this project we will be addressing questions regarding the relationship between different habitat characteristics, how changes in these habitat variables may impact steelhead populations, and how valuable some methods of data collection are compared to others in understanding these fish. 
+we will be using existing datasets which have already been collected by others from Oregon Department of Fish and Wildlife (ODFW). These data include:
 
-- Surveys and describe various components of steelhead and coho salmon habitat along streams in Oregon as well as population data for each species. These data exist in multiple .csv files which I have been analyzing using R in R studio. 
-- Spatial data which can be helpful in visualizing these habitat data while also layering in remotely sensed data about larger scale habitat data. These data are many different data types and are stored in a shared drive. They can be accessed and visualized by using ArcGIS, Python or R.
-- Model outputs from a model called VELMA (Visualizing Ecosystem Land Management Assessments). These outputs include spatial layers related to hydrology and biochemistry. The outputs are ArcGIS layers and can be visualized by using ArcMap or other GIS platforms. 
+- Surveys and describe various components of steelhead habitat along streams in Oregon as well as population data for each species. This was collected using a Generalized Random Tessellation Stratified (GRTS) survey. These data exist as tabular data stored in multiple .csv files.
+- *VELMA (Visualizing Ecosystem Land Management Assessments) inputs*:
+VELMA models will be re-run for the period of ODFW Aquatic Inventories (AQI) habitat data (1998 – 2020) while also including the novel, and complimentary model, PENUMBRA (model that can produce spatial and temporal representations of shade percentage and ground-level solar energy), to also export modeled stream temperature values. Stream temperature values will be validated with ODFW thermistors where and when available. All spatial data to run these models has been collected and organized. Only weather data (daily precipitation and daily air temperature) is needed. These data will be obtained from the PRISM climate group (https://prism.oregonstate.edu/). 
+- *VELMA outputs*:
+Outputs of the VELMA model (daily stream flow and temperature GIS layers) will be validated against USGS stream gage data using the Nash-Sutcliffe efficiency co-efficient (NSE) while instream temperature will be validated against thermistors with seasonal simulated-observed metrics.
 
-All of these data will all be useful in developing species distribution models for juvenile steelhead salmon. Species distribution models use multiple covariates to project the presence or absence of individuals. I will mainly use these habitat data to decide the covariates and other components of the model. I have not assessed the most influential habitat characteristics in determining the likelihood of presence or absence, but will likely run a series of linear regression models to evaluate the importance of things like number/percent of pools identified, percent of down woody debris, and percent of shade. These models will likely be run in R, Python and ArcGIS. 
+All of these data will be useful in developing species distribution models for juvenile steelhead salmon. Species distribution models (SDM) use multiple covariates to project the presence or absence of individuals. This model will be used to describe the productivity and suitability of juvenile steelhead habitat and to guide targeted habitat management actions. We will use these habitat data and modeled covariates to inform the SDM. We will assess the most influential habitat characteristics in determining the likelihood of presence or absence, by running a series of general additive models. These models will be run using R. The SDM will be developed using R. Both of these will be connected to the graduate student's GitHub.
 	
-I have access to an abundance of data; however, it is unclear how much I will actually use in my project. Currently there is about 1-2 GB of datasets, however I expect as I develop multiple ArcGIS layers this number will increase to potentially 3-4 GB.  
-
+Currently there is about 1-2 GB of datasets, as we develop GIS projects and layers this number will increase to 3-4 GB or more.  
+  
 # Roles and Responsibilities
 
-The PI will assist in implementing the DMP we organize together. My project is based on existing data and a dimension of my work will include acquiring, organizing, storing, and analyzing these data sets. 
-Therefore, I will be solely responsible for these tasks as well as developing a system of archiving both the data and my analyses. Metadata is largely not included in the datasets I have acquired and because of this I have and will continue to contact the original owners of the data to generate metadata. Datasets from Oregon Department of Fish and Wildlife (ODFW) include raw fine scale habitat data for steelhead and coho salmon as well as population data. I may request data access to more habitat and population from NOAA. 
-	
-Since I will be using data collected by other people, 
-I plan to make copies of all of these datasets and store the data in a separate folder of the Box drive that I share with my project partners. This will also be the location of my analyses generated in R. The owners of the Box drive are the PI as well as our partners at ODFW, therefore information will not be lost after I graduate. The Box drive will be the sole location for all data, however for data which is larger (i.e. VELMA model outputs) these will be exchanged through a hard drive which is the property of OSU. All datasets will be stored as .csv to ensure accessibility and all analyses will be accessible through RStudio, and open source platform. All spatial data layers will be stored together as zip files to ensure that all of the necessary data to view the layers is together. 
-	
-As my project continues I will develop models to analyze the population and habitat data. I hope to develop a package in R to store these methods of analysis as well as the metadata behind each step within the models. I will include all of this information as well as instructions of reproducibility within the package help files. 
-	
-To ensure that the changes I make to dataset format, as well as new data I develop through my various analyses, I plan to develop a file naming convention as well a visual guide for the DMP. This visual guide will display the location of files, the system of organization, as well as the contact information for those who are associated with the data who may be helpful resources. 
+The PI will be responsible for implementing the DMP. Because this project is based on existing data, a dimension of the graduate student's work will include acquiring, organizing, storing, and analyzing these data sets. Therefore, the graduate student will be solely responsible for these tasks as well as developing a system of archiving both the data and future analyses. Metadata is largely not included in the datasets currently and because of this the graduate student will continue to contact the original owners of the data to generate and ammend any missing metadata. ODFW include raw fine scale habitat data for steelhead as well as population data. All of the from ODFW have copies with the original owners. These datasets are unrestrictive and do not contain sensitive information.
+
+While this project has many partners, the graduate student has sole responsibility over developing and applying this data management plan. If the graduate student were to suddenly leave this project, the responsibilities of the student would fall to the PI. Since the graduate student will be using data collected by other people,  copies will be made of all of these datasets and stored in a separate folder of the Box drive that is shared with all project partners prior to future analysis. The original copies exist with the original owners who are at ODFW. The owners of the Box drive are the PI as well as our partners at ODFW, therefore information will not be lost after the graduate finishes on this project. The Box drive will be the sole location for all data, however for data which is larger (i.e. VELMA model outputs) these will be exchanged through a hard drive which is the property of OSU. This is to share the data within the project, however the original outputs belong to ODFW. All datasets will be stored as .csv to ensure accessibility and all analyses will be accessible through RStudio, and open source platform. All spatial data layers will be stored together as zip files to ensure that all of the necessary data to view the layers is together. 
+
+As this project continues we will develop models to analyze the population and habitat data. I hope to develop a package in R to store these methods of analysis as well as the metadata behind each step within the models. We will include all of this information as well as instructions of reproducibility within the package help files. 
+
 
 # Data Standards and Metadata
 
-My research is focused on the relationship between habitat characteristics and populations of juvenile steelhead. I will be using tabular data from habitat and population surveys which have already been collected by other people at Oregon Department of Fish and Wildlife.  These data exist in multiple .csv files which I have been analyzing using R in R studio. These surveys are stored as tabular data and will include a readme sheet which includes the definitions of variables as well as contact information for those who collected the data. I am still not certain about which components of the data I will be using, and I intend on creating duplicates of all .csv files that are adjusted as well as describing any changes in the readme. The naming convention for each data set will include ‘dateedited (in year_month_day)_datadescription(i.e. habitatdata)’. 
+This project will be using tabular data from habitat and population surveys which have already been collected by other individuals at ODFW. These data exist in multiple .csv files which will be analyzed using R in R studio. These surveys are stored as tabular data and will include a readme sheet which stores the definitions of variables as well as contact information for those who collected the data.
 
-New datasets will likely be generated as I continue with my project. This will include analyses being applied to the tabular data described above, and being executed in R studio. Progress in R studio will be documented by using R markdown and/or R notebook. By outputting these files as HTML notebooks and saving each version, any changes can be well documented and knitted into a user-friendly interface where code chunks and text outline any analyses. There are existing packages which I may want to use which generate metadata from R markdown files. 
+The graduate student will create duplicates of all .csv files that are adjusted as well as describing any changes in the readme. The naming convention for each data set will include date edited (in year_month_day),datadescription (i.e. habitatdata). To ensure that the changes made to dataset format, as well as new data developed through these various analyses, we will implement the file naming convention referenced above as well a visual guide for the DMP. This visual guide will display the location of files, the system of organization, as well as the contact information for those who are associated with the data who may be helpful resources. 
 
-Another dimension of my research will hopefully be developing an R package that will be a specific group of functions to run a species distribution model with my data. The documentation of developing the R package will be as described above, and will also be included in the specific help file for the package and each of the functions. The data I use will also be callable from the package itself once the package is installed. 
+New datasets will be generated as we continue with this project. This will include analyses being applied to the tabular data described above, and being executed in R studio. Progress in R studio will be documented by using GitHub. GitHub will be an essential tool in data version control.  
 
-While I am certain I will use spatial data in my project, I still lack the vocabulary and familiarity with GIS to be sure about how I will store and document changes and descriptions of my datasets. I likely will utilize the software ArcGIS and create databases where relevant data will be stored including readme.md files. I also may decide to use R studio for spatial analysis, in which case documentation of changes and data descriptions will be stored using the aforementioned methods.
+Another dimension of this research will be developing an R package that will be a specific group of functions to run a species distribution model with this data. The documentation of developing the R package will be as described above, and will also be included in the specific help file for the package and each of the functions. The data we use will also be callable from the package itself once the package is installed. 
+
+We will utilize the software ArcGIS Pro and create geodatabases where relevant data will be stored as ‘projects’ including readme.md files. 
+# Storage and Security
+_Box Drive_
+
+- Literature reviewed as tabular data.
+- Habitat and abundance data (i.e. tabular data, GIS layers).
+
+_External hard drive_
+
+- Transferring VELMA model outputs between devices.
+
+_GitHub_
+
+- Graduate student will perform analysis using their personal GitHub.
 
 # Sharing and Preservation
 
-There are not any factors that limit the ability to share data with my project. However, there may be some datasets which do not communicate any information without access to GIS software. Besides for potential technological barriers, the information is unrestricted and will be shared publicly. Some of the data used in this project is already available upon request on the ODFW Data Clearinghouse website:
-	
-	https://nrimp.dfw.state.or.us/DataClearinghouse/default.aspx?ReturnUrl=%2fDataClearinghouse
-
-
-Any products of my own research including GIS layers, mathematical models used for analysis, written reports, and other datasets will be publicly available in this same clearing house and the OSU data depository, ScholarsArchive@OSU:
-
-
-	https://ir.library.oregonstate.edu/
-
-
-While there are many sources of data in the ODFW Clearing House, the instructions on how to upload data are connected to a broken link. Sharing my data will happen by the end of my tenure as a graduate student in June 2023. These datasets will include .csv files, GIS map layers, and .Rmd files. These data will be as freely available as possible for reuse, redistribution and creation of derivatives with a CC0 licenses.
-
-
-The length of time the data on the Clearing House website will be archived, maintained and preserved is unclear. Access to these data are limited in the sense that requesting it is required. The data shared in the Scholars Archive at OSU will require no maintenance and will be openly accessible. The data shared in this repository are preserved indefinitely. 
+There are no requirements for data management, release, or preservation for this project. Any products of this research including GIS layers, mathematical models used for analysis, written reports, and other datasets will be available only upon request of the PI and through ODFW. Copies of the mathematical models and other analysis will be stored in the graduate student's personal GitHub and files will remain in the Box drive for at least 3 years after the graduate student is no longer on the project. These files can be made available upon request. 
 
 
