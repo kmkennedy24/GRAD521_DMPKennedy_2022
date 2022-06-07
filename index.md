@@ -55,7 +55,12 @@ _GitHub_
 ## Security
 There is no sensitive information or data which needs extrodinary security measures. 
 
-# 5. Access, Sharing, and Preservation 
+# 5. Access and Data Sharing
+
+These data will not be made publicly available and is not sensitive with any need for protection or security measures. Any analysis in the graduate student's GitHub will not be available to the public and will be relinquished at the end of the graduate student's tenure. These data will only be available for future use, redistribution, and creating derivatives by current associates of ODFW and OSU. 
+
+
+# 6. Archiving and Preservation 
 
 There are no requirements for data management, release, or preservation for this project. Any products of this research including GIS layers, mathematical models used for analysis, written reports, and other datasets will be available only upon request of the PI and through ODFW. After this release, all maintenance responsibilities will fall on the PI. Copies of the mathematical models and other analysis will be stored in the graduate student's personal GitHub and files will remain in the Box drive for at least 3 years after the graduate student is no longer on the project. These files can be made available upon request. 
 
