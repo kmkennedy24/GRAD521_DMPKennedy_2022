@@ -57,11 +57,16 @@ There is no sensitive information or data which needs extrodinary security measu
 
 # 5. Access and Data Sharing
 
-These data will not be made publicly available and is not sensitive with any need for protection or security measures. Any analysis in the graduate student's GitHub will not be available to the public and will be relinquished at the end of the graduate student's tenure. These data will only be available for future use, redistribution, and creating derivatives by current associates of ODFW and OSU. 
+These data will be made publicly available and are not sensitive with any need for protection or security measures. Some datasets will only be available for future use, redistribution, and creating derivatives upon request to current associates of ODFW and OSU. 
 
 
 # 6. Archiving and Preservation 
 
-There are no requirements for data management, release, or preservation for this project. Any products of this research including GIS layers, mathematical models used for analysis, written reports, and other datasets will be available only upon request of the PI and through ODFW. After this release, all maintenance responsibilities will fall on the PI. Copies of the mathematical models and other analysis will be stored in the graduate student's personal GitHub and files will remain in the Box drive for at least 3 years after the graduate student is no longer on the project. These files can be made available upon request. 
+
+There are no requirements for data management, release, or preservation for this project. Any products of the graduate student's own research including GIS layers, mathematical models used for analysis, written reports, and other datasets will be publicly available in this same clearing house and the OSU data depository, ScholarsArchive@OSU:
+https://ir.library.oregonstate.edu/
+
+The release of these data will happen by the end of the tenure of the graduate student in Fall 2023. These datasets will include .csv files, GIS map layers, and .Rmd files. These data will be as freely available as possible for reuse, redistribution and creation of derivatives with a CC0 licenses.
+	The data shared in the Scholars Archive at OSU will require no maintenance and will be openly accessible. The data shared in this repository are preserved indefinitely. Copies of the mathematical models and other analysis will be stored in the graduate student's personal GitHub and files will remain in the Box drive for at least 3 years after the graduate student is no longer on the project. These files can be made available upon request. 
 
 
