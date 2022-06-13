@@ -43,21 +43,24 @@ _Box Drive_
 
 - Literature reviewed as tabular data.
 - Habitat and abundance data (i.e. tabular data, GIS layers).
+- Backup strategy: downloading Box drive to graduate student's laptop.
 
 _External hard drive_
 
 - Transferring VELMA model outputs between devices.
+- Backup strategy: Copies of these outputs exist with ODFW colleagues and will be saved to Box drive by graduate student.
 
 _GitHub_
 
 - Graduate student will perform analysis using their personal GitHub.
+- Backup strategy: Download archive and upload to Box drive.
 	
 ## Security
 There is no sensitive information or data which needs extrodinary security measures. 
 
 # 5. Access and Data Sharing
 
-These data will be made publicly available and are not sensitive with any need for protection or security measures. Some datasets will only be available for future use, redistribution, and creating derivatives upon request to current associates of ODFW and OSU. 
+These data will be made publicly available and are not sensitive with any need for protection or security measures. Some datasets will only be available for future use, redistribution, and creating derivatives upon request to current associates of ODFW and OSU. Data analyzed, published, and preserved by the graduate student will be available through the OSU data depository, ScholarsArchive@OSU: https://ir.library.oregonstate.edu/.
 
 
 # 6. Archiving and Preservation 
@@ -66,7 +69,7 @@ These data will be made publicly available and are not sensitive with any need f
 There are no requirements for data management, release, or preservation for this project. Any products of the graduate student's own research including GIS layers, mathematical models used for analysis, written reports, and other datasets will be publicly available in the OSU data depository, ScholarsArchive@OSU:
 https://ir.library.oregonstate.edu/
 
-The release of these data will happen by the end of the tenure of the graduate student in Fall 2023. These datasets will include .csv files, GIS map layers, and .Rmd files. These data will be as freely available as possible for reuse, redistribution and creation of derivatives with a CC0 licenses.
-	The data shared in the Scholars Archive at OSU will require no maintenance and will be openly accessible. The data shared in this repository are preserved indefinitely. Copies of the mathematical models and other analysis will be stored in the graduate student's personal GitHub and files will remain in the Box drive for at least 3 years after the graduate student is no longer on the project. These files can be made available upon request. 
+The release of these data will occur by the end of the tenure of the graduate student in Fall 2023. These datasets will include .csv files, GIS map layers, and .Rmd files. These data will be as freely available as possible for reuse, redistribution and creation of derivatives with a CC0 licenses.
+	The data shared in the Scholars Archive at OSU will require no maintenance and will be openly accessible. The data shared in this repository are preserved indefinitely. Copies of the mathematical models and other analysis will be stored in the graduate student's personal GitHub and files will remain in the Box drive for at least 3 years after the graduate student is no longer on the project. These files can be made available upon request of the PI and ODFW partners. 
 
 
