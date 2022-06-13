@@ -63,7 +63,7 @@ These data will be made publicly available and are not sensitive with any need f
 # 6. Archiving and Preservation 
 
 
-There are no requirements for data management, release, or preservation for this project. Any products of the graduate student's own research including GIS layers, mathematical models used for analysis, written reports, and other datasets will be publicly available in this same clearing house and the OSU data depository, ScholarsArchive@OSU:
+There are no requirements for data management, release, or preservation for this project. Any products of the graduate student's own research including GIS layers, mathematical models used for analysis, written reports, and other datasets will be publicly available in the OSU data depository, ScholarsArchive@OSU:
 https://ir.library.oregonstate.edu/
 
 The release of these data will happen by the end of the tenure of the graduate student in Fall 2023. These datasets will include .csv files, GIS map layers, and .Rmd files. These data will be as freely available as possible for reuse, redistribution and creation of derivatives with a CC0 licenses.
