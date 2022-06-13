@@ -60,7 +60,7 @@ There is no sensitive information or data which needs extrodinary security measu
 
 # 5. Access and Data Sharing
 
-These data will be made publicly available and are not sensitive with any need for protection or security measures. Some datasets will only be available for future use, redistribution, and creating derivatives upon request to current associates of ODFW and OSU. Data analyzed, published, and preserved by the graduate student will be available through the OSU data depository, ScholarsArchive@OSU: https://ir.library.oregonstate.edu/.
+These data will be made publicly available and are not sensitive with any need for protection or security measures. GRTS survey data for steelhead habitat and abundance data, as well as VELMA outputs are provided by ODFW and will not be shared as per the request of these partners. These datasets may be available for future use, redistribution, and creating derivatives upon request to current associates of ODFW and OSU. Data analyzed, published, and preserved by the graduate student will be available through the OSU data depository, ScholarsArchive@OSU: https://ir.library.oregonstate.edu/.
 
 
 # 6. Archiving and Preservation 
